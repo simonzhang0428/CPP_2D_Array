@@ -5,12 +5,7 @@ Homework 2
 Project: Superstar
 Among n persons, a superstar is defined as someone who is known by everyone but does not know anyone. The problem is to identify the superstar, if one exits. In the relationship table shown below, 1 means "Row knows Column", 0 means "Row does not know Column":
 
-     AMY . Bob . Cam . Dan . Ion
-Amy   0     1     1     1     0 . // Amy knows Bob, Cam, and Dan // Bob knows Cam
-Bob   0     0     1     0     0 . // Bob knows Cam
-Cam   0     0     0     0     0 . // Cam does not know anyone
-Dan   1     0     1     0     1 . // Dan knows Amy, and Ion
-Ion   0     1     1     1     0 . // Ion knows Bob, Cam, and Dan
+// here is a graph, show the table, which is in the PDF file.
 
 Your task is to write a function to identify the superstar and call it from main(). Run the program and save the output as a comment at the end of the source file.
 
